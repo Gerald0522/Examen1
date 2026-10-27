@@ -22,6 +22,8 @@ use Illuminate\Http\Resources\Json\JsonResource;
  * costo_interno, created_at y updated_at NO deben aparecer.
  * Reutilice CategoriaResource para la categoría.
  */
+
+//Este archivo determina qué información de un equipo puede recibir el Front-end.
 class EquipoResource extends JsonResource
 {
     public function toArray(Request $request): array
